@@ -1,5 +1,5 @@
  // using useState function we create a state for a variable  and a setter function to update that variable 
-import React, {useState} from 'react';
+// import React, {useState} from 'react';
 function MyComponent(){
 
    

@@ -15,6 +15,12 @@
   border-radius: 5%;
   margin-bottom: 10px;
 }
+.Image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
 
 .card .car-title{
   font-family: Arial, sans-serif;
@@ -35,9 +41,9 @@
   cursor: pointer;
 }  */
 
-body{
-  background-color: rgb(77, 138, 138);
-}
+/* body{
+  /* background-color: rgb(77, 138, 138); 
+} */
 
 /* student.jsx */
 .Student{
@@ -95,4 +101,13 @@ background-color: hsl(185, 100%, 50%);
 .List-Item li:hover{
   color: hsl(0, 0%, 45%);
   cursor: pointer;
+}
+
+
+
+.Image{
+  max-width: 60%;
+  height: auto;
+  border-radius: 5%;
+  margin-bottom: 10px;
 }

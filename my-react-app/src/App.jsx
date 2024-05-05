@@ -5,10 +5,17 @@
   // import Button from "./Button.jsx";
   // import Student from "./Students.jsx";
 
-// import UserGreeting from "./UserGreeting";
-import List from "./List.jsx";
+// import UserGreeting from "./UserGreeting.jsx";
+// import List from "./List.jsx";
+// import ButtonClick from "./ButtonClick.jsx";
+// import ProfilePicture from "./ProfilePicture.jsx";
 
- 
+// import MyComponent from "./MyComponent.jsx";
+import Counter from "./Counter.jsx";
+//  React hook = special function that allows functional components to use react feature without writing class components (React v16.8)(usestate , useEffect , useContext , useReducer , useCallback ,and more)
+
+// useState() = A React hook that allows the creation of a stateful variable and a setter function to update its value in the virtual DOM,
+
 
 
 
@@ -48,10 +55,15 @@ function App() {
     {/* <UserGreeting isLoggedIn ={false}  username = "Nihal"></UserGreeting> */}
 
     {/* { fruits.length > 0  ? <List items={fruits} category="Fruits" /> : null} * this is ternory  */}
-    { fruits.length > 0  && <List items={fruits} category="Fruits" /> }  {/**This is know as a short cercuting */}
+    {/* { fruits.length > 0  && <List items={fruits} category="Fruits" /> }  *This is know as a short cercuting */}
      {/* {vegetables.length > 0 ? <List items={vegetables} category="Vegetables" /> : null} */}
-     {vegetables.length > 0 && <List items={vegetables} category="Vegetables" /> }
+   {/* {vegetables.length > 0 && <List items={vegetables} category="Vegetables" /> } */}
+     {/* <ButtonClick/> */}
+     {/* <ProfilePicture/> */}
 
+        {/* <MyComponent/> */}
+
+        < Counter/>
     </>
     
   );

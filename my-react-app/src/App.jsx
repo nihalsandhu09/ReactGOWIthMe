@@ -11,11 +11,12 @@
 // import ProfilePicture from "./ProfilePicture.jsx";
 
 // import MyComponent from "./MyComponent.jsx";
-import Counter from "./Counter.jsx";
+// import Counter from "./Counter.jsx";
 //  React hook = special function that allows functional components to use react feature without writing class components (React v16.8)(usestate , useEffect , useContext , useReducer , useCallback ,and more)
 
 // useState() = A React hook that allows the creation of a stateful variable and a setter function to update its value in the virtual DOM,
 
+import ComponentNew from "./ComponentNew.jsx";
 
 
 
@@ -63,7 +64,8 @@ function App() {
 
         {/* <MyComponent/> */}
 
-        < Counter/>
+        {/* < Counter/> */}
+        < ComponentNew/>
     </>
     
   );

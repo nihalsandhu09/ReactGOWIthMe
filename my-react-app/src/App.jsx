@@ -16,7 +16,13 @@
 
 // useState() = A React hook that allows the creation of a stateful variable and a setter function to update its value in the virtual DOM,
 
-import ComponentNew from "./ComponentNew.jsx";
+// import ComponentNew from "./ComponentNew.jsx";
+// import ColorPicker from "./ColorPicker.jsx";
+// import MyNewComponent from "./MyNewComponent.jsx";
+// import Component from "./Component.jsx";
+// import Nextcomponent from "./NextComponent.jsx";
+import StateofArrayofObjects from "./StateofArrayofObjects.jsx";
+
 
 
 
@@ -65,7 +71,15 @@ function App() {
         {/* <MyComponent/> */}
 
         {/* < Counter/> */}
-        < ComponentNew/>
+        {/* < ComponentNew/> */}
+        {/* <ColorPicker/> */}
+
+
+        {/* <MyNewComponent/> */}
+        {/* <Component/> */}
+
+        {/* <Nextcomponent/> */}
+        <StateofArrayofObjects/>
     </>
     
   );

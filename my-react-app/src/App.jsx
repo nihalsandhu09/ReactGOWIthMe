@@ -21,7 +21,8 @@
 // import MyNewComponent from "./MyNewComponent.jsx";
 // import Component from "./Component.jsx";
 // import Nextcomponent from "./NextComponent.jsx";
-import StateofArrayofObjects from "./StateofArrayofObjects.jsx";
+// import StateofArrayofObjects from "./StateofArrayofObjects.jsx";
+import ToDoList from "./ToDOList.jsx";
 
 
 
@@ -79,8 +80,9 @@ function App() {
         {/* <Component/> */}
 
         {/* <Nextcomponent/> */}
-        <StateofArrayofObjects/>
-    </>
+        {/* <StateofArrayofObjects/> */}
+        <ToDoList/>
+   </>
     
   );
 }

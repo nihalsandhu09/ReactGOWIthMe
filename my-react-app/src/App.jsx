@@ -22,24 +22,25 @@
 // import Component from "./Component.jsx";
 // import Nextcomponent from "./NextComponent.jsx";
 // import StateofArrayofObjects from "./StateofArrayofObjects.jsx";
-import ToDoList from "./ToDOList.jsx";
-
+// import ToDoList from "./ToDOList.jsx";
+// import CounterNext from "./CounterNext.jsx";
+import UseEffectComponent from "./EffectComponent.jsx";
 
 
 
 function App() {
-  const fruits = [{ id:1, name :"Apple " , calories : 95},
-                { id:2, name :"Orange" ,calories : 45 } ,
-                { id:3, name: "banna" , calories : 105} ,
-               { id:4, name :"cocunut" , calories : 159 } ,
-                { id:5, name : "pineapple" , calories : 37}] ;
+  // const fruits = [{ id:1, name :"Apple " , calories : 95},
+  //               { id:2, name :"Orange" ,calories : 45 } ,
+  //               { id:3, name: "banna" , calories : 105} ,
+  //              { id:4, name :"cocunut" , calories : 159 } ,
+  //               { id:5, name : "pineapple" , calories : 37}] ;
 
-  const vegetables = [{ id:6, name :"potato " , calories : 110},
+  // const vegetables = [{ id:6, name :"potato " , calories : 110},
 
-                { id:7, name :"celery" ,calories : 15 } ,
-                { id:8, name: "carrot" , calories : 25} ,
-                { id:9, name :"corn" , calories : 63 } ,
-                { id:10, name : "brocoli" , calories : 50}] ;
+  //               { id:7, name :"celery" ,calories : 15 } ,
+  //               { id:8, name: "carrot" , calories : 25} ,
+  //               { id:9, name :"corn" , calories : 63 } ,
+  //               { id:10, name : "brocoli" , calories : 50}] ;
 
   return(
     <>  
@@ -81,7 +82,11 @@ function App() {
 
         {/* <Nextcomponent/> */}
         {/* <StateofArrayofObjects/> */}
-        <ToDoList/>
+        {/* <ToDoList/> */}
+         
+         {/* <CounterNext/> */}
+  
+  <UseEffectComponent/>
    </>
     
   );

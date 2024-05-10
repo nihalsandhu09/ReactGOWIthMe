@@ -24,7 +24,8 @@
 // import StateofArrayofObjects from "./StateofArrayofObjects.jsx";
 // import ToDoList from "./ToDOList.jsx";
 // import CounterNext from "./CounterNext.jsx";
-import UseEffectComponent from "./EffectComponent.jsx";
+// import UseEffectComponent from "./EffectComponent.jsx";
+import DigitalClock from "./DigitalClock.jsx";
 
 
 
@@ -86,7 +87,8 @@ function App() {
          
          {/* <CounterNext/> */}
   
-  <UseEffectComponent/>
+  {/* <UseEffectComponent/> */}
+  <DigitalClock/>
    </>
     
   );

@@ -25,8 +25,9 @@
 // import ToDoList from "./ToDOList.jsx";
 // import CounterNext from "./CounterNext.jsx";
 // import UseEffectComponent from "./EffectComponent.jsx";
-import DigitalClock from "./DigitalClock.jsx";
-
+// import DigitalClock from "./DigitalClock.jsx";
+import ComponentA from "./ComponentA.jsx";
+import React from "react";
 
 
 function App() {
@@ -88,7 +89,8 @@ function App() {
          {/* <CounterNext/> */}
   
   {/* <UseEffectComponent/> */}
-  <DigitalClock/>
+  {/* <DigitalClock/> */}
+  <ComponentA/>
    </>
     
   );

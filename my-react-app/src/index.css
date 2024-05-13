@@ -273,7 +273,7 @@ li{
 
 
 /* Digital Clock  */
-body{
+/* body{
 background-image: url(assets/Background.jpg);
 background-position: center;
 background-repeat: no-repeat;
@@ -298,4 +298,10 @@ font-weight: bold;
 font-family: monospace;
 text-align: center;
 text-shadow: 3px 3px 5px hsl(0, 0%, 0%);
+} */
+
+
+.box{
+  border: 3px solid;
+  padding: 25px;
 }
